@@ -43,7 +43,7 @@ init = np.array([r, c]).T
 # alpha: elasticidad (más alto = más rígida)
 # beta: suavidad (más alto = menos esquinas)
 # gamma: velocidad de ajuste
-snake = active_contour(blurred, init, alpha=0.015, beta=10, gamma=0.001)
+#snake = active_contour(blurred, init, alpha=0.015, beta=10, gamma=0.001)
 
 _, thresh = cv2.threshold(blurred, 127, 255, cv2.THRESH_BINARY)
 
